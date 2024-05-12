@@ -1,0 +1,145 @@
+html, body {
+    background-color: black;
+    font-size: 16px;
+    font-family: "Bodoni Moda", serif;
+    line-height: 1.2;
+    color: white;
+}
+h1 {
+    font-family: "Bodoni Moda", serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 5rem;
+    color: white;
+    text-align: left;
+    margin: 0 auto;
+    line-height: 7rem;
+    padding-top: 10rem;
+    margin-left: 0;
+}
+.get-in-touch::first-letter {
+    -webkit-initial-letter: normal 2;
+            initial-letter: normal 2;
+    color: #d72028;
+    font-family: "antina", sans-serif;
+    font-weight: 900;
+    font-size: 25rem;
+    float: left;
+}
+.Touch{
+    padding-left: 8.5rem;
+}
+.first-field {
+    background-color: black;
+    font-size: 2.5rem;
+    font-weight: 400;
+    border: solid .5rem;
+    border-color: #d72028;
+    text-align: center;
+    padding: .05rem;
+    border-radius: 35px;
+    width: 190%;
+    margin-top: 8rem;
+}
+.second-field {
+    background-color: black;
+    font-size: 2.5rem;
+    font-weight: 400;
+    border: solid .5rem;
+    border-color: #d72028;
+    text-align: center;
+    padding: .05rem;
+    border-radius: 35px;
+    width: 190%;
+    margin-top: -15rem;
+    margin-left: 30rem;
+}
+::placeholder {
+    color: white;
+    font-size: 2rem;
+    font-family: "Bodoni Moda", serif;
+    line-height: 1.2;
+}
+input {
+    color: white;
+    font-size: 2rem;
+    font-family: "Bodoni Moda", serif;
+    line-height: 1.2;
+}
+.Name-Link{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 400;
+    border: solid .5rem;
+    border-color: #d72028;
+    text-align: center;
+    padding: .05rem;
+    border-radius: 35px;
+    width: 120%;
+}
+.Email-Link{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 400;
+    border: solid .5rem;
+    border-color: #d72028;
+    text-align: center;
+    padding: .05rem;
+    border-radius: 35px;
+    width: 600%;
+}
+.third-field{
+    background-color: black;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 400;
+    border: solid .5rem;
+    border-color: #d72028;
+    text-align: left;
+    padding-left: 2rem;
+    border-radius: 35px; 
+    height: 30rem;
+    width: 100%;
+    margin-top: 5rem;
+    padding-top: 2rem;
+}
+textarea {
+    color: white;
+    font-size: 2rem;
+    font-family: "Bodoni Moda", serif;
+    line-height: 1.2;
+}
+img {
+    border-color: black;
+    border: 10px;
+    width: 110%;
+    height: 110%;
+}
+button {
+    border: 0rem;
+    padding: 0rem;
+    margin: 0rem;
+    width: 40%;
+    height: 10%;
+    position: relative;
+    left: 30%;
+}
+@media screen and (max-width: 600px) {
+    .first-field {
+    width: 100%;
+    margin-bottom: 2rem;
+    }
+   }
+@media screen and (max-width: 600px) {
+    .second-field {
+    margin-top: 3rem;
+    margin-left: 0rem;
+    width: 100%;
+    }
+   }
+@media screen and(max-width: 600px) {
+    .third-field {
+    width: 90%;
+    margin-left: .25rem;
+    }
+   }
